@@ -17,8 +17,8 @@ describe('sum', () => {
   });
 
   test('can add two large positive numbers', () => { 
-    const expected = 10;
-    const actual = sum(2, 8);
+    const expected = 125;
+    const actual = sum(23, 102);
     expect(actual).toBe(expected);
   });
 
