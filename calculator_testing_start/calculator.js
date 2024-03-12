@@ -25,6 +25,10 @@ const odd = (a) => {
     {
         return true;
     }
+    else if (a % 2 === -1)
+    {
+        return true;
+    }
     else {
         return false;
     }

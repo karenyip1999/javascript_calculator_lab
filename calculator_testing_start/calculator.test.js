@@ -196,4 +196,10 @@ describe('odd', () => {
     const actual = odd(0);
     expect(actual).toBe(expected);
   })
+
+  test('can check with negative number', () => {
+    const expected = true;
+    const actual = odd(-355);
+    expect(actual).toBe(expected);
+  })
 });
