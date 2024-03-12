@@ -158,6 +158,13 @@ describe('even', () => {
     const actual = even(22);
     expect(actual).toBe(expected);
   })
+
+  test('can check if even with small negative number', () => {
+    const expected = false;
+    const actual = even(-35);
+    expect(actual).toBe(expected);
+  })
+
 });
 
 describe('odd', () => {
