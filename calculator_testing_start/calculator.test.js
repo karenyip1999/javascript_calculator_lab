@@ -54,7 +54,11 @@ describe('subtract', () => {
     expect(actual).toBe(expected);
   })
   
-
+  test('can subtract with zero', () => {
+    const expected = -15;
+    const actual = subtract(0, 15);
+    expect(actual).toBe(expected);
+  })
 });
 
 describe('multiply', () => {
