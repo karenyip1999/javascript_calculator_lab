@@ -48,6 +48,13 @@ describe('subtract', () => {
     expect(actual).toBe(expected);
   })
 
+  test('can subtract two small positive numbers', () => {
+    const expected = 2;
+    const actual = subtract(8, 6);
+    expect(actual).toBe(expected);
+  })
+  
+
 });
 
 describe('multiply', () => {
