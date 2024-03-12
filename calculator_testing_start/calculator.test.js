@@ -126,6 +126,12 @@ describe('modulus', () => {
     expect(actual).toBe(expected);
   })
 
+  test('can modulo with a large and small positive number', () => {
+    const expected = 0;
+    const actual = modulus(500, 2);
+    expect(actual).toBe(expected);
+  })
+
 });
 
 describe('even', () => {
