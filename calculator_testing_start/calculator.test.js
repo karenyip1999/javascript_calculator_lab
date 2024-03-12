@@ -28,8 +28,10 @@ describe('sum', () => {
     expect(actual).toBe(expected);
   });
 
-  test.skip('can add zero', () => {
-    
+  test('can add zero', () => {
+    const expected = 10;
+    const actual = sum(10, 0);
+    expect(actual).toBe(expected);
   });
 
 });
