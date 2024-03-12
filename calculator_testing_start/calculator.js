@@ -21,7 +21,7 @@ const even = (a) => {
 }
 
 const odd = (a) => {
-    if (a % 2 == 1)
+    if (a % 2 === 1)
     {
         return true;
     }

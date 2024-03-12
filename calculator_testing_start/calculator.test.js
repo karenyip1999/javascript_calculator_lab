@@ -8,6 +8,8 @@ const {
   odd,
 } = require("./calculator");
 
+//SUM
+
 describe('sum', () => { 
   
   test('can add two small positive numbers', () => {
@@ -35,6 +37,8 @@ describe('sum', () => {
   });
 });
 
+//SUBTRACT
+
 describe('subtract', () => {
   test('can subtract two large positive numbers', () => {
     const expected = 52;
@@ -60,6 +64,8 @@ describe('subtract', () => {
     expect(actual).toBe(expected);
   })
 });
+
+//MULTIPLY
 
 describe('multiply', () => {
   test('can multiply two large positive numbers', () => {
@@ -87,6 +93,8 @@ describe('multiply', () => {
   })
 });
 
+//DIVIDE
+
 describe('divide', () => {
   test('can divide with two large positive numbers', () => {
     const expected = 10;
@@ -113,6 +121,7 @@ describe('divide', () => {
   })
 });
 
+//MODULO
 describe('modulus', () => {
   test('can modulo with two positive numbers', () => {
     const expected = 100;
@@ -140,6 +149,7 @@ describe('modulus', () => {
 
 });
 
+//EVEN
 describe('even', () => {
   test('can check if even with a large positive number', () => {
     const expected = false;
@@ -166,6 +176,8 @@ describe('even', () => {
   })
 });
 
+//ODD
+
 describe('odd', () => {
   test('can check if off with large positive number', () => {
     const expected = true;
@@ -176,6 +188,12 @@ describe('odd', () => {
   test('can check with small positive number', () => {
     const expected = false;
     const actual = odd(22);
+    expect(actual).toBe(expected);
+  })
+
+  test('can check with zero', () => {
+    const expected = false;
+    const actual = odd(0);
     expect(actual).toBe(expected);
   })
 });
