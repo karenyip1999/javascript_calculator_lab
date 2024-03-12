@@ -114,6 +114,11 @@ describe('divide', () => {
 });
 
 describe('modulus', () => {
+  test('can modulo with two positive numbers', () => {
+    const expected = 100;
+    const actual = modulus(500, 200);
+    expect(actual).toBe(expected);
+  })
 
 });
 
