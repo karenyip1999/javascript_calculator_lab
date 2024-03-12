@@ -172,4 +172,10 @@ describe('odd', () => {
     const actual = odd(355);
     expect(actual).toBe(expected);
   })
+
+  test('can check with small positive number', () => {
+    const expected = false;
+    const actual = odd(22);
+    expect(actual).toBe(expected);
+  })
 });
