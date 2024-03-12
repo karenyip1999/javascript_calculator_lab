@@ -62,6 +62,11 @@ describe('subtract', () => {
 });
 
 describe('multiply', () => {
+  test('can multiply two large positive numbers', () => {
+    const expected = 5022;
+    const actual = multiply(62, 81);
+    expect(actual).toBe(expected);
+  })
 
 });
 

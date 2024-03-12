@@ -6,6 +6,7 @@ const subtract = (a, b) => a - b;
 
 const multiply = (a, b) => a * b;
 
+
 const divide = null;
 
 const modulus = null;
