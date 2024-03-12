@@ -88,6 +88,11 @@ describe('multiply', () => {
 });
 
 describe('divide', () => {
+  test('can divide with two large numbers', () => {
+    const expected = 10;
+    const actual = divide(5000,500);
+    expect(actual).toBe(expected);
+  })
 
 });
 
