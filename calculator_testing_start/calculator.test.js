@@ -164,7 +164,6 @@ describe('even', () => {
     const actual = even(-35);
     expect(actual).toBe(expected);
   })
-
 });
 
 describe('odd', () => {

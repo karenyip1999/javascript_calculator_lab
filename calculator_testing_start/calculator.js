@@ -20,7 +20,15 @@ const even = (a) => {
     }
 }
 
-const odd = null;
+const odd = (a) => {
+    if (a % 2 === 1)
+    {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
 
 module.exports = { 
     sum, 
