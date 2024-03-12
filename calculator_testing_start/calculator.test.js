@@ -100,6 +100,11 @@ describe('divide', () => {
     expect(actual).toBe(expected);
   })
 
+  test('can divide with zero', () => {
+    const expected = 0;
+    const actual = divide(0, 159);
+    expect(actual).toBe(expected);
+  })
 });
 
 describe('modulus', () => {
