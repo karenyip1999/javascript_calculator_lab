@@ -141,7 +141,11 @@ describe('modulus', () => {
 });
 
 describe('even', () => {
-
+  test('can check if even with a large positive number', () => {
+    const expected = false;
+    const actual = even(521);
+    expect(actual).toBe(expected);
+  })
 });
 
 describe('odd', () => {
