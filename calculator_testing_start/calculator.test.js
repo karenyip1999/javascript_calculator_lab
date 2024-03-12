@@ -120,6 +120,12 @@ describe('modulus', () => {
     expect(actual).toBe(expected);
   })
 
+  test('can modulo two negative numbers', () => {
+    const expected = -100;
+    const actual = modulus(-500, -200);
+    expect(actual).toBe(expected);
+  })
+
 });
 
 describe('even', () => {
