@@ -167,5 +167,9 @@ describe('even', () => {
 });
 
 describe('odd', () => {
-
+  test('can check if off with large positive number', () => {
+    const expected = true;
+    const actual = odd(355);
+    expect(actual).toBe(expected);
+  })
 });
