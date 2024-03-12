@@ -105,6 +105,12 @@ describe('divide', () => {
     const actual = divide(0, 159);
     expect(actual).toBe(expected);
   })
+
+  test('can divide with two negative numbers', () => {
+    const expected = 6;
+    const actual = divide(-30, -5);
+    expect(actual).toBe(expected);
+  })
 });
 
 describe('modulus', () => {
