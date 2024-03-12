@@ -80,6 +80,11 @@ describe('multiply', () => {
     expect(actual).toBe(expected);
   })
 
+  test('can multiply with a negative and positive number', () => {
+    const expected = -22;
+    const actual = multiply(-2, 11);
+    expect(actual).toBe(expected);
+  })
 });
 
 describe('divide', () => {
