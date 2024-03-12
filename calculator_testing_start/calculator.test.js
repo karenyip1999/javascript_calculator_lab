@@ -132,6 +132,12 @@ describe('modulus', () => {
     expect(actual).toBe(expected);
   })
 
+  test('can modulo with a positive and a negative number', () => {
+    const expected = -0;
+    const actual = modulus(-500, 5);
+    expect(actual).toBe(expected);
+  })
+
 });
 
 describe('even', () => {
