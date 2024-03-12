@@ -33,10 +33,14 @@ describe('sum', () => {
     const actual = sum(10, 0);
     expect(actual).toBe(expected);
   });
-
 });
 
 describe('subtract', () => {
+  test('can subtract two large positive numbers', () => {
+    const expected = 52;
+    const actual = subtract(263, 211);
+    expect(actual).toBe(expected);
+  })
 
 });
 
