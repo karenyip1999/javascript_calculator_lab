@@ -153,6 +153,11 @@ describe('even', () => {
     expect(actual).toBe(expected);
   })
 
+  test('can check if even with small positive number', () => {
+    const expected = true;
+    const actual = even(22);
+    expect(actual).toBe(expected);
+  })
 });
 
 describe('odd', () => {
