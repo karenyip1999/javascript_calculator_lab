@@ -10,7 +10,15 @@ const divide = (a, b) => a / b;
 
 const modulus = (a, b) => a % b;
 
-const even = null;
+const even = (a) => {
+    if (a % 2 === 0)
+    {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
 
 const odd = null;
 
