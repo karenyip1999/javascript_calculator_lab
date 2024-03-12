@@ -67,6 +67,12 @@ describe('multiply', () => {
     const actual = multiply(62, 81);
     expect(actual).toBe(expected);
   })
+  
+  test('can multiply two large negative numbers', () => {
+    const expected = 5022;
+    const actual = multiply(-62, -81);
+    expect(actual).toBe(expected);
+  })
 
 });
 
