@@ -8,7 +8,7 @@ const multiply = (a, b) => a * b;
 
 const divide = (a, b) => a / b;
 
-const modulus = null;
+const modulus = (a, b) => a % b;
 
 const even = null;
 
