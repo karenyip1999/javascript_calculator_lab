@@ -74,6 +74,12 @@ describe('multiply', () => {
     expect(actual).toBe(expected);
   })
 
+  test('can multiply with zero', () => {
+    const expected = 0;
+    const actual = multiply(0, 22);
+    expect(actual).toBe(expected);
+  })
+
 });
 
 describe('divide', () => {
